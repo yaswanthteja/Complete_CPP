@@ -1,11 +1,19 @@
-#include<iostream>
+// write a program to add 2 numbers by taking user input
+
+#include <iostream>
 
 using namespace std;
 
 int main(){
-    int a=10;
-    int b=20;
-    int result =a+b;
-    cout<< "The result of a+b is " << result;
+    int a;
+    int b;
+    cout<<"Enter a number: ";
+    cin >> a;   // we don't use endl in cin
+    cout<<"Enter a number: ";
+    cin >> b;
+    cout<< "the result of a+b: " << a+b << endl;
     return 0;
+
+
+
 }
