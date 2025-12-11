@@ -52,6 +52,14 @@ ptr->x = 30; ptr->y = 40;      // arrow
 
 ## 5. Casting
 
+What is Casting?
+
+* **Casting**   means converting a value from one data type to another.
+* Useful when you want to control how data is interpreted (e.g., float → int, int → char).
+* Two main styles in C++:
+
+  1. **C‑style casting**→ `(type)value`
+  2. **C++ casting operators**→ `static_cast`, `dynamic_cast`, `const_cast`,`reinterpret_cast`
 * **Purpose:** Convert one data type into another.
 * **Why useful:** Control type conversions explicitly.
 
@@ -60,6 +68,9 @@ double d = 9.8;
 int i = (int)d;                 // C-style cast → 9
 int j = static_cast<int>(d);    // safer C++ cast
 ```
+
+
+
 
 ## 6. Address Operator `&`
 
@@ -73,6 +84,8 @@ cout << &x;   // prints address (like 0x7ffee...)
 
 ## 7. Pointer `*`
 
+* A **pointer** is a variable that stores the **memory address** of another variable.
+* Instead of holding a value directly, it “points” to where the value is stored in memory.
 * **Purpose:** Declare a pointer or dereference it (access value at address).
 * **Why useful:** Direct memory access and dynamic data structures.
 
@@ -153,9 +166,6 @@ if (!x) {        // since x=0 → false → !x = true
 }
 
 ```
-
-
-
 
 ## **Memory trick for revision:**
 
