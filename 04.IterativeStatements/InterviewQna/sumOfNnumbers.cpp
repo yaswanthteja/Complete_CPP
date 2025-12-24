@@ -12,11 +12,23 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> num;
 
-    for (int i = 1; i <= num; ++i) {
-        sum += i;
-    }
+    // for (int i = 1; i <= num; ++i) {
+    //     sum += i;
+    // }
 
-    cout << "Sum = " << sum << endl;
+    // cout << "Sum = " << sum << endl;
+
+
+
+    // using while
+    int i=1;   // loop variable for initialization
+    while(i<=num){   // Condition
+        sum+=i;
+        i++;   //updation
+    }
+    cout<<sum;
+
+
 
     return 0;
 }
